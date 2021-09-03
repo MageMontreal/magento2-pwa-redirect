@@ -1,0 +1,24 @@
+{
+    "name": "magemontreal/module-pwaredirect",
+    "description": "Redirect all the frontend access to backend pwa magento",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "MageMontreal",
+            "email": "support@magemontreal.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magemontreal/module-core": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageMontreal\\PwaRedirect\\": ""
+        }
+    }
+}
