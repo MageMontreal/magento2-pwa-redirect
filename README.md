@@ -37,4 +37,6 @@ This module redirect any customer access to the default theme of the magento bac
 
 ## License
 
-This project is released under the GNU license.
+This project is released under the [GNU license](https://github.com/MageMontreal/magento2-pwa-redirect/blob/master/LICENSE.txt).
+
+Copyright © 2021-present. MageMontreal.
