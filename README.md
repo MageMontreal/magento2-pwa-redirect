@@ -9,7 +9,7 @@
 
 ## Main Functionalities
 
-This module redirect any customer access to the default theme of the magento backend installation, if you are using headless pwa, you do not want to any customer happens to access the backend magento installation.
+This module redirect any customer access to the default theme of the Magento backend installation, if you are using headless pwa, you do not want to any customer happens to access the backend Magento installation.
 
 ## Installation
 
