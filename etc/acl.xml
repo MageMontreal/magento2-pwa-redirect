@@ -6,7 +6,7 @@
 				<resource id="Magento_Backend::stores">
 					<resource id="Magento_Backend::stores_settings">
 						<resource id="Magento_Config::config">
-							<resource id="MageMontreal_PwaRedirect::config_magemontreal_pwaredirect" title="pwaredirect"/>
+							<resource id="MageMontreal_PwaRedirect::config_magemontreal_pwaredirect" title="PWA Redirect"/>
 						</resource>
 					</resource>
 				</resource>

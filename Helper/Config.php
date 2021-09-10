@@ -25,14 +25,18 @@ class Config extends AbstractHelper
     }
 
     /**
+     * Check whether the module is enabled or not
+     * 
      * @return bool
      */
     public function isEnabled(): bool
     {
-        return (boolean) $this->scopeConfig->getValue(self::IS_ENABLED);
+        return (boolean) $this->scopeConfig->isSetFlag(self::IS_ENABLED);
     }
 
     /**
+     * Get the headless URL salved via admin panel
+     * 
      * @return string|null
      */
     public function getRedirectUrl()
