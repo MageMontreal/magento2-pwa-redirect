@@ -12,8 +12,8 @@ use Magento\Framework\App\Helper\Context;
 
 class Config extends AbstractHelper
 {
-    const IS_ENABLED = 'pwaredirect/config/is_enabled';
-    const URL_REDIRECT = 'pwaredirect/config/redirect_url';
+    const IS_ENABLED = 'pwaredirect/pwaconfig/is_enabled';
+    const URL_REDIRECT = 'pwaredirect/pwaconfig/redirect_url';
 
     /**
      * @param Context $context
